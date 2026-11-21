@@ -1,0 +1,6 @@
+# This repository is an Android app (built with Gradle / GitHub Actions).
+# Netlify only hosts a small static info page, so no build step is needed.
+# Settings here override the build command configured in the Netlify UI.
+[build]
+  command = "echo 'No web build step required'"
+  publish = "public"
